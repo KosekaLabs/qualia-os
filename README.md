@@ -35,9 +35,15 @@ The kernel has its own documentation in the
 
 ## Status
 
-Design phase. Nothing here runs yet. The documents above are the reference
-for what we intend to build and are expected to change as decisions in
+Design phase for QualiaOS itself; the documents above are the reference for
+what we intend to build and are expected to change as decisions in
 [docs/open-questions.md](docs/open-questions.md) get resolved.
+
+The kernel is further along: the first [Kalium](https://github.com/koseka/kalium)
+prototype boots on QEMU (aarch64), runs WebAssembly services through a
+spec-tested interpreter, and demonstrates capability-gated host calls, IPC
+with capability transfer, and real-time plus fair scheduling. See Kalium's
+`docs/running.md` for how to run it.
 
 ## License
 
