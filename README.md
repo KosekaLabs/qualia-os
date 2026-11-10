@@ -1,7 +1,7 @@
 # QualiaOS
 
 QualiaOS is an open source, agentic mobile operating system. It is built on
-[Kalium](https://github.com/koseka/kalium), a Rust kernel that runs only
+[Kalium](https://github.com/KosekaLabs/kalium), a Rust kernel that runs only
 WebAssembly, and it ships with a built-in, open-weights AI model that runs on
 the phone's NPU and acts on the user's behalf.
 
@@ -31,7 +31,7 @@ the phone's NPU and acts on the user's behalf.
 | [docs/open-questions.md](docs/open-questions.md) | Dimension checks, budgets, and the design decisions that still need to be made. |
 
 The kernel has its own documentation in the
-[Kalium repository](https://github.com/koseka/kalium).
+[Kalium repository](https://github.com/KosekaLabs/kalium).
 
 ## Status
 
@@ -39,7 +39,7 @@ Design phase for QualiaOS itself; the documents above are the reference for
 what we intend to build and are expected to change as decisions in
 [docs/open-questions.md](docs/open-questions.md) get resolved.
 
-The kernel is further along: the first [Kalium](https://github.com/koseka/kalium)
+The kernel is further along: the first [Kalium](https://github.com/KosekaLabs/kalium)
 prototype boots on QEMU (aarch64), runs WebAssembly services through a
 spec-tested interpreter, and demonstrates capability-gated host calls, IPC
 with capability transfer, and real-time plus fair scheduling. See Kalium's
