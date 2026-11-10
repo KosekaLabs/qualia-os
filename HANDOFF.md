@@ -1,16 +1,15 @@
 # Handoff
 
-This repository holds the QualiaOS design documents (see `docs/`). The
-implementation work so far is the Kalium kernel prototype, and its full
-handoff (state, how to run it, open issues, next steps) is in
-[`HANDOFF.md` in KosekaLabs/kalium](https://github.com/KosekaLabs/kalium/blob/claude/qualiaos-architecture-wnanv0/HANDOFF.md).
+This repository holds the QualiaOS design documents (see `docs/`). The implementation work so far is the Kalium kernel prototype; its full handoff (state, how to run it, open issues, next steps) is `HANDOFF.md` in the [Kalium repository](https://github.com/KosekaLabs/kalium).
 
-What changed here on branch `claude/qualiaos-architecture-wnanv0`:
+## Where the work stands (2026-11-10)
 
-- `README.md` and five design documents in `docs/`: system architecture, web apps and
-  permissions, model architecture, agent interface, and open questions. The open-questions
-  document holds the dimension, memory and cadence budgets for the model.
-- Links point at the `KosekaLabs` organization.
+- The first session ran in the cloud and delivered its work as two git bundles. Both were unpacked and verified against their final commits, then removed; the work now lives only in git.
+- Kalium: 16 commits, local checkout on `dev`.
+- QualiaOS: 4 commits of design documents on top of the initial commit, merged into `dev`.
+- Nothing has been pushed yet. Both repositories merge into `dev`, never `main` (Phased Versioning); `v1` will be cut from `dev` later.
 
-Nothing has been pushed yet; publish this branch from `qualia-os.bundle` as
-described in the Kalium handoff, section 1.
+## Open items
+
+- The model described in `docs/model-architecture.md` and `docs/open-questions.md` differs from the latest decisions recorded in Koseka's internal notes; the owner decides which one wins before these documents are treated as the reference.
+- This repository has no Rust code yet, so it has no `Cargo.toml` and no CI workflow. Both are added when code lands.
