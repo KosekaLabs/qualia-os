@@ -37,7 +37,9 @@ The idea in three sentences:
 
 QualiaOS itself is in its design phase: there is nothing to install yet. The documents below are the reference for what is intended and are expected to change as the decisions in [docs/open-questions.md](docs/open-questions.md) get resolved.
 
-The kernel is further along: the first [Kalium](https://github.com/KosekaLabs/kalium) prototype boots on QEMU (aarch64), runs WebAssembly services through a spec-tested interpreter, and demonstrates capability-gated host calls, IPC with capability transfer, and real-time plus fair scheduling. See Kalium's `docs/running.md` for how to run it.
+The documents were written without some of the decisions recorded in Koseka's internal notes on QualiaOS, chiefly the later shape of the model and of the interface (voice, widgets and text, with websites driven by the agent in the background). Where they differ, the recorded decisions win; the differences are listed at the end of [docs/open-questions.md](docs/open-questions.md) until each document is brought in line.
+
+The kernel is further along: the first [Kalium](https://github.com/KosekaLabs/kalium) prototype boots on QEMU (aarch64), runs WebAssembly services through a spec-tested interpreter, and demonstrates capability-gated host calls, IPC with capability transfer, and real-time plus fair scheduling. Its `docs/status.md` covers what runs, how it was verified, the open decisions (the kernel's base first) and the next steps.
 
 ## Documentation
 

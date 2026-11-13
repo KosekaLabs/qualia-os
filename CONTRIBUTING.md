@@ -15,11 +15,11 @@ Here are the main directories and files in the project:
 │   ├── system-architecture.md
 │   └── web-apps-and-permissions.md
 ├── img/
-├── HANDOFF.md
+├── AGENTS.md
 └── package.json
 ```
 
-QualiaOS is in its design phase, so the repository holds design documents only. The `docs/` directory is the reference for what is intended, and `docs/open-questions.md` collects the decisions that still need to be made. The kernel, [Kalium](https://github.com/KosekaLabs/kalium), lives in its own repository with its own contribution rules. `HANDOFF.md` records where the work currently stands.
+QualiaOS is in its design phase, so the repository holds design documents only. The `docs/` directory is the reference for what is intended, and `docs/open-questions.md` collects the decisions that still need to be made. The kernel, [Kalium](https://github.com/KosekaLabs/kalium), lives in its own repository with its own contribution rules. The README's status section says where the work stands, and `AGENTS.md` holds the standing instructions for coding agents.
 
 Additionally, the `package.json` file configures the [Node](https://nodejs.org) environment required to run the [Trunk CLI](https://docs.trunk.io/code-quality/overview) metalinter.
 
